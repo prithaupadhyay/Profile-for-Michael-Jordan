@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>Gallery</title>
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.gallery {
+  width: 640px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(2,2);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+
+</style>
+</head>
+<body bgcolor="333333">
+<H1 align=center style="font-size: 650%;"><b><font face=cooper color=white>GALLERY</font></b></H1>
+<hr><BR>
+<table><tr>
+<td align=center><img src="images/basket.jpg" height=700 width=300</td>
+
+<td><div class="gallery cf">
+  <div>
+    <img src="images/i1.jpg" height=200 width=300 />
+  </div>
+  <div>
+    <img src="images/i2.jpg" height=200 width=300 />
+  </div>
+  <div>
+    <img src="images/i3.jpg" height=200 width=350/>
+  </div>
+  <div>
+    <img src="images/i4.jpg" height=200 width=350/>
+  </div>
+  <div>
+    <img src="images/i5.jpg" height=200 width=350/>
+  </div>
+  <div>
+    <img src="images/i6.jpg" height=200 width=350/>
+  </div>
+
+  <div>
+    <img src="images/i7.jpg" height=200 width=350/>
+  </div>
+  <div>
+    <img src="images/i8.jpg" height=200 width=350/>
+  </div>
+  <div>
+    <img src="images/i9.jpg" height=200 width=350/>
+  </div>
+  <div>
+    <img src="images/i10.jpg" height=200 width=350/>
+  </div>
+  <div>
+    <img src="images/i11.jpg" height=200 width=350/>
+  </div>
+  <div>
+    <img src="images/i12.jpg" height=200 width=350/>
+  </div>
+</div>
+</td>
+<td align=center><img src="images/shot.jpg" height=700 width=400</td>
+</tr></table>
+ <br> 
+<hr>
+<br>
+<center>
+<table cellpadding=10 cellspacing=20>
+<tr><td align=center><video controls="" height="440" width="520">
+  <source src="images/videof.mp4" />s
+</video></td>
+<td align=center><video controls="" height="440" width="520">
+  <source src="images/video2.mp4" />
+</video></td>
+</tr>
+<tr><td align=center><b><font face=cooper  SIZE=5 color=white>TOP 10 BASKETS OF MICHAEL JORDAN</FONT></B></td>
+<td align=center><b><font face=cooper  SIZE=5 color=white>MICHAEL JORDEN RECEIVES<br> THE PRESIDENTIAL MEDAL OF FREEDOM</FONT></B></td>
+</tr>
+</table>
+</center>
+<hr>
+
+</body>
+</html>
